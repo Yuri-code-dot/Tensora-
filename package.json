@@ -1,0 +1,23 @@
+{
+  "name": "tensora",
+  "version": "1.0.0",
+  "description": "Tensora - A terminal AI coding assistant with multi-API support (Groq, Mistral)",
+  "main": "src/index.js",
+  "bin": {
+    "tensora": "./src/index.js",
+    "ten": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --verbose"
+  },
+  "keywords": ["ai", "cli", "coding-assistant", "groq", "mistral"],
+  "author": "Baki Sora",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "ora": "^5.4.1",
+    "boxen": "^5.1.2"
+  }
+}
